@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.status {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+#player {
+    margin-right: 20px;
+}
+
+#result {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+canvas {
+    background: #dcb35c;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#restart {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#restart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
